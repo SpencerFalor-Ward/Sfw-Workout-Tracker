@@ -1,0 +1,26 @@
+-provided front end code in develop
+-Project requires we use MongoDB and Mongoose scheem and handle routes with Express
+- User Story
+
+As a user, I want to be able to view create and track daily workouts. 
+I want to be able to log multiple exercises in a workout on a given day. 
+I should also be able to track the name, type, weight, sets, reps, and duration of exercise. 
+If the exercise is a cardio exercise, I should be able to track my distance traveled.
+
+MVP
+-The user should be able to:
+
+
+Add exercises to a previous workout plan.
+
+
+Add new exercises to a new workout plan.
+
+
+View multiple the combined weight of multiple exercises on the "stats" page.
+
+You are required to submit the following:
+
+* The URL to the deployed application
+
+* The URL to the Github repository
