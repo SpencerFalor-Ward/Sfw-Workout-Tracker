@@ -24,3 +24,13 @@ You are required to submit the following:
 * The URL to the deployed application
 
 * The URL to the Github repository
+
+TASKS
+- front end JS is exercise.JS
+- may need to add code to index.js
+- may need to add code to stats.js to connect to backend
+- need to make models directory and model.js file
+- need to make db.js file?
+
+QUESTIONS
+- do I need a required in the model for type? How to require an option choice?
