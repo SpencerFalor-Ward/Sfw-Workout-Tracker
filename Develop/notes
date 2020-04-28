@@ -31,6 +31,7 @@ TASKS
 - may need to add code to stats.js to connect to backend
 - need to make models directory and model.js file
 - need to make db.js file?
+- html.routes ?
 
 QUESTIONS
 - do I need a required in the model for type? How to require an option choice?
