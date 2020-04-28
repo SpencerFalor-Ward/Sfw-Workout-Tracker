@@ -1,18 +1,25 @@
 const router = require('express').Router()
-const Model = require('../models/model.js')
+const Workout = require('../models/model.js')
 
 router.post('/api/workouts', ({ body }, res) => {
-    Model.create(body)
+    Workout.create(body)
         .then((dbWorkout) => {
             res.json(dbWorkout)
         })
         .catch((err) => {
             res.status(400).json(err)
         })
+    // Cardio.create(body)
+    //     .then((dbWorkout) => {
+    //         res.json(dbWorkout)
+    //     })
+    //     .catch((err) => {
+    //         res.status(400).json(err)
+    //     })
 })
 
 router.post('/api/workouts/bulk', ({ body }, res) => {
-    Model.insertMany(body)
+    Workout.insertMany(body)
         .then((dbWorkout) => {
             res.json(dbWorkout)
         })
@@ -22,7 +29,7 @@ router.post('/api/workouts/bulk', ({ body }, res) => {
 })
 
 router.get('/api/workouts', (req, res) => {
-    Model.find({})
+    Workout.find({})
         .sort({ date: -1 })
         .then((dbWorkout) => {
             res.json(dbWorkout)
