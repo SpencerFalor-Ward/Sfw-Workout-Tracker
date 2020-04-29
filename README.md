@@ -1,6 +1,6 @@
 # :boom: [Welcome to SpencerFalor-Ward's Workout Tracker](https://fitness-tracker-sfw.herokuapp.com/) :boom:
 
-## Workout Tracker[WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
+## Workout Tracker [WordPress Theme Active Installs](https://img.shields.io/wordpress/theme/installs/twentysixteen)
 
 A simple web based app for tacking your cardio and resistance workouts
 
