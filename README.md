@@ -21,6 +21,7 @@ npm install the following: mongoose, path, express
 ## Usage
 
 Input your choice of cardio or resistance and then input your parameters of the exercise and add to your workout. The app will automatically track your exercises.
+
 ![Workout tracker demo](./fitnessTracker.gif)
 
 ## Liscence
