@@ -42,4 +42,4 @@ Git at me if you have any :grin:
 
 ## Contact
 
-srfalorward@ucdavis.edu
+srpfw19@gmail.com
